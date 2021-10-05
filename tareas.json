@@ -1,0 +1,14 @@
+[
+ {
+    "titulo" : "Dar de comer al perro",
+    "estado" : "Terminada"
+},
+ { 
+    "titulo" : "Colgar la ropa",
+    "estado" : "En progreso"
+},
+ { 
+    "titulo" : "Preparar la comida",
+    "estado" : "Pendiente"
+ }
+]
