@@ -28,5 +28,5 @@ switch(accion){
     default:
         console.log('No entiendo que quieres hacer');
         console.log('Las funciones que tengo son: listar');
-        break;
+        break; // veremos si anda
 }
