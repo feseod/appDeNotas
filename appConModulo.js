@@ -19,7 +19,7 @@ switch(accion){
             titulo : titulo,
             estado : 'pendiente'
         };
-        archivoTareas.guardarTarea (tarea)
+        archivoTareas.guardarTarea(tarea);
         break;
 
     case undefined:

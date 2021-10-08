@@ -7,8 +7,8 @@ let archivoTareas = {
     leerJSON: function () {
         return JSON.parse(fs.readFileSync(this.archivo, 'utf-8'));
     },
-    archivo: 'tareas.json',
-    escribirJSON: function () {
+    
+    escribirJSON: function (tareas) {
         return fs.writeFileSync (JSON.stringify(tareas, null, ' ' )); // los valores null y ' ', son para que cuando se escriban las nuevas tareas , no se escriban en una linea entera, sino uno debajo del otro.
     },
     guardarTarea: function (tarea){
